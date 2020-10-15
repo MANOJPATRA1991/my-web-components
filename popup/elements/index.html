@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <base href="/">
+</head>
+
+<body>
+
+  <popup-element message="Manoj"></popup-element>
+  </login-element>
+
+  <script>
+    let arr = ['wow', 'wow2'];
+    const popup = document.querySelector('popup-element');
+    popup.testArray = arr;
+    popup.addEventListener('myClick', (event) => console.log(event.detail));
+  </script>
+  <script type="text/javascript" src="popup/elements/popup.js"></script>
+</body>
+
+</html>
